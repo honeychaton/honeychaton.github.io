@@ -1,0 +1,968 @@
+/* ------------------------------------------------
+
+		1. Default stylesheets
+
+------------------------------------------------ */
+
+	body{
+		direction: rtl;
+		unicode-bidi: embed;
+		left: auto;
+		right: 0;
+	}
+
+	.menu_opened{
+		left: auto;
+		right: -150px;
+	}
+
+/* ------------------------------------------------
+
+		1. General Classes
+
+------------------------------------------------ */
+
+	.align_left{
+		text-align: right;
+	}
+
+	.align_right{
+		text-align: left;
+	}
+
+	.alignleft{
+		float: right;
+	}
+
+	.alignright{
+		float: left;
+	}
+
+	img.alignleft{
+		margin-left: 20px;
+		margin-right: 0px;
+		margin-bottom: 5px;
+	}
+
+	img.alignright{
+		margin-right: 20px;
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+
+	blockquote.alignright{
+		margin-left: 0px;
+		margin-right: 20px;
+	}
+
+	blockquote.alignleft{
+		margin-right: 0px;
+		margin-left: 20px;
+	}
+
+	.on_the_sides > .right_side:last-child{
+		text-align: left;
+	}
+
+	.on_the_sides > .right_side:last-child *{
+		text-align: right;
+	}
+
+	#loader{
+		left: auto;
+		right: 50%;
+		margin: -38px -38px 0 0;
+	}
+
+	/* selectors, which can be removed in the final product */
+
+	.buttons_example_row > .btn{
+		float: right;
+	}
+
+	.buttons_example_row > .btn:not(:last-child){
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+/* ------------------------------------------------
+
+		1. Header
+
+------------------------------------------------ */
+
+	/* --------------------------------------------
+			3.1 Top Buttons
+	-------------------------------------------- */
+
+		#top_actions_wrap{
+			right: auto;
+			left: 30px;
+		}
+
+		#top_actions_wrap > *{
+			margin-left: 0px;
+			margin-right: 12px;
+		}
+
+	/* --------------------------------------------
+			3.2 Main navigation
+	-------------------------------------------- */
+
+		.hm_wrap .navigation > li{
+			float: right;
+		}
+
+		.hm_wrap .navigation > li:not(:last-child){
+			margin-right: 0px;
+			margin-left: 25px;
+		}
+
+		.hm_wrap{
+			padding-right: 0px;
+			padding-left: 265px;
+			margin-left: 0px;
+			margin-right: 100px;
+		}
+
+		.navigation .has_submenu > a{
+			padding: 0 0 0 20px;
+		}
+
+		.navigation .has_submenu > a::after{
+			right: auto;
+			left: 4px;
+		}
+
+		.hm_wrap .submenu{
+			left: auto;
+			right: -30px;
+		}
+
+		.hm_wrap .submenu .submenu{
+			left: auto;
+			right: 100%;
+			margin: 0 20px 0 0;
+
+			-webkit-animation-name: zoomOutRight;
+					animation-name: zoomOutRight;
+		}
+
+		.hm_wrap .submenu .active > .submenu{
+			-webkit-animation-name: zoomInRight;
+					animation-name: zoomInRight;
+		}
+
+		.hm_wrap .submenu .has_submenu > a::after{
+			content: "\e879";
+		}
+
+		.hm_wrap .submenu .has_submenu.current > a::after,
+		.hm_wrap .submenu .active > a::after{
+			content: "\e87a";
+		}
+
+		.vm_wrap{
+			right: auto;
+			left: 0;
+
+			-webkit-transform: translateX(-100%);
+				-ms-transform: translateX(-100%);
+					transform: translateX(-100%);
+		}
+
+		.vm_wrap::before{
+			right: auto;
+			left: 100%;
+		}
+
+		.vm_wrap .has_submenu > .submenu{
+			padding-left: 0px;
+			padding-right: 10px;
+		}
+
+/* ------------------------------------------------
+
+		4. Basic Elements
+
+------------------------------------------------ */
+
+	/* --------------------------------------------
+			4.1 Typography
+	-------------------------------------------- */
+
+		.dropcap::first-letter{
+			float: right;
+			font-size: 48px;
+			font-weight: 700;
+			margin: 11px 0 0 8px;
+		}
+
+	/* --------------------------------------------
+			4.1 Buttons
+	-------------------------------------------- */
+
+		.btn.next{
+			padding-right: 19px;
+			padding-left: 35px;
+		}
+
+		.btn.prev{
+			padding-left: 19px;
+			padding-right: 35px;
+		}
+
+		.btn.next::after{
+			content: "\ea27";
+			left: 20px;
+			right: auto;
+		}
+
+		.btn.prev::after{
+			content: "\ea28";
+			right: 18px;
+			left: auto;
+		}
+
+		.qv_lightbox_btn{
+			right: auto;
+			left: 10px;
+		}
+
+	/* --------------------------------------------
+			4.2 Tooltips
+	-------------------------------------------- */
+
+		.tooltip.right{
+			left: auto;
+			right: 100%;
+			margin-right: 12px;
+
+			-webkit-transform: translate(-10px, -50%);
+				-ms-transform: translate(-10px, -50%);
+					transform: translate(-10px, -50%);
+		}
+
+		.tooltip.right::after{
+			right: auto;
+			left: 100%;
+			border-width: 0 9px 11px 0;
+		}
+
+		.tooltip.left{
+			right: auto;
+			left: 100%;
+			margin-left: 12px;
+
+			-webkit-transform: translate(10px, -50%);
+				-ms-transform: translate(10px, -50%);
+					transform: translate(10px, -50%);
+		}
+
+		.tooltip.left::after{
+			left: auto;
+			right: 100%;
+			border-width: 0 0 11px 9px;
+		}
+
+	/* --------------------------------------------
+			4.3 Lists
+	-------------------------------------------- */
+
+		[class*="list_style_"]:not(:only-child){
+			padding-left: 0px;
+			padding-right: 20px;
+		}
+
+		[class*="list_style_"] > li{
+			padding: 0 20px 0 0;
+		}
+
+		[class*="list_style_"] > li::before{
+			left: auto;
+			right: 0px;
+		}
+
+		.list_style_arrow > li::before{
+			content: '\e875';
+		}
+
+		.social_links > li{
+			float: right;
+		}
+
+		.page_actions{
+			text-align: left;
+		}
+
+	/* --------------------------------------------
+			4.4 Tables
+	-------------------------------------------- */
+
+		th{
+			text-align: right;
+		}
+
+		th:not(:last-child){
+			border-left-color: #505050;
+		}
+
+		.shopping_cart_table .close{
+			left: auto;
+		}
+
+/* ------------------------------------------------
+
+		7. Forms
+
+------------------------------------------------ */
+
+	.active_option{
+		margin-right: 0px;
+		margin-left: 38px;
+	}
+
+	.active_option::after{
+		content: '\e884';
+		font-family: 'Fontello';
+		font-size: 18px;
+		text-align: center;
+		display: block;
+		width: 36px;
+		height: inherit;
+		line-height: inherit;
+		color: inherit;
+		border: inherit;
+		background: inherit;
+		position: absolute;
+		top: -1px;
+		left: auto;
+		right: 100%;
+		margin-left: 0px;
+		margin-right: 3px;
+	}
+
+	.subscribe input[type="email"]{
+		float: right;
+	}
+
+	.min_value.alignright,
+	.searchform input[type="text"],
+	.protected_form input[type="password"]{
+		float: right;
+	}
+
+	.min_value.alignleft,
+	.protected_form button,
+	.subscribe button,
+	.searchform button{
+		float: left;
+	}
+
+	.min_value{
+		text-align: left;
+	}
+
+	.quantity > * {
+	    float: right;
+	}
+
+	.quantity > *:not(:last-child) {
+    	margin-right: 0;
+    	margin-left: 2px;
+	}
+
+	.choose_rating > li{
+		float: right;
+	}
+
+	.choose_rating > li:not(:last-child)::after{
+		right: auto;
+		left: 0;
+	}
+
+	.choose_rating > li:first-child{
+		padding-left: 15px;
+		padding-right: 5px;
+	}
+
+	.choose_rating > li:last-child{
+		padding-right: 15px;
+		padding-left: 5px;
+	}
+
+	input[type="radio"] + label,
+	input[type="checkbox"] + label{
+		padding-left: 0px;
+		padding-right: 30px;
+	}
+
+	input[type="radio"] + label::before,
+	input[type="checkbox"] + label::before{
+		left: auto;
+		right: 0px;
+	}
+
+	.remember_me{
+		margin-left: 0px;
+		margin-right: 5px;
+	}
+
+	.md_no-touch .nav_searchform input[type="search"]{
+		float: left;
+	}
+	.md_no-touch .nav_searchform input[type="search"]:focus,
+	.md_no-touch .nav_searchform:hover input[type="search"]{
+		padding-right: 0px !important;
+		padding-left: 40px !important;
+	}
+
+	.nav_searchform button{
+		right: auto;
+		left: 0;
+	}
+
+/* ------------------------------------------------
+
+		1. Main
+
+------------------------------------------------ */
+
+	.fullscreen .page_actions{
+		right: auto;
+		left: 30px;
+	}
+
+/* ------------------------------------------------
+
+		7. Widgets and Shortcodes
+
+------------------------------------------------ */
+
+	/* --------------------------------------------
+			7.1 Accordion and Toggles
+	-------------------------------------------- */
+
+		.toggles > dt,
+		.accordion > dt{
+			padding: 6px 20px 6px 50px;
+		}
+
+		.toggles > dt::after,
+		.accordion > dt::after{
+			right: auto;
+			left: 20px;
+		}
+
+	/* --------------------------------------------
+			7.1 Tabs and Tour Sections
+	-------------------------------------------- */
+
+		.tabs_nav > li{
+			float: right;
+			margin: 0 0 4px 4px;
+		}
+
+		.ts_nav{
+			float: right;
+			margin-right: 0px;
+			margin-left: 4px;
+		}
+
+	/* --------------------------------------------
+			7.1 Alert Boxes
+	-------------------------------------------- */
+
+		.alert_box{
+			padding: 14px 20px 14px 50px;
+		}
+
+		.close{
+			right: auto;
+			left: 20px;
+		}
+
+	/* --------------------------------------------
+			7.1 Progress Bars
+	-------------------------------------------- */
+
+		.progress_bar::after{
+			right: auto;
+			left: 0px;
+		}
+
+		.progress_bar > span{
+			left: auto;
+			right: 1px;
+		}
+
+	/* --------------------------------------------
+			7.1 Counters
+	-------------------------------------------- */
+
+		.counters > .counter{
+			float: right;
+		}
+
+		.counters > .counter:not(:last-child){
+			border-right: none;
+			border-left: 2px solid #eee;
+		}
+
+	/* --------------------------------------------
+			7.1 Before/After
+	-------------------------------------------- */
+
+		.after_part{
+			left: auto;
+			right: 0;
+			clip: rect(0, 46em, auto, 0);
+		}
+
+		.before_after_wrap::before{
+			left: 46em;
+		}
+
+		.before_after_wrap::after{
+			left: calc(46em - 24px);
+		}
+
+/* ------------------------------------------------
+
+		1. Carousels
+
+------------------------------------------------ */
+
+	.product_thumbs .owl-prev{
+		left: auto;
+		right: 0px;
+	}
+
+	.product_thumbs .owl-next{
+		right: auto;
+		left: 0px;
+	}
+
+	.product_thumbs .owl-prev::before{
+		content: "\e876";
+	}
+
+	.product_thumbs .owl-next::before{
+		content: "\e875";
+	}
+
+/* ------------------------------------------------
+
+		1. Blog
+
+------------------------------------------------ */
+
+	.actions_list > li{
+		float: right;
+	}
+
+	.action_btn_like{
+		direction: ltr;
+	}
+
+	.addthis_sharing_toolbox{
+		right: auto;
+		left: 100%;
+
+		-webkit-transform: translateX(-20px);
+			-ms-transform: translateX(-20px);
+				transform: translateX(-20px);
+	}
+
+	.addthis_sharing_toolbox.large_icons{
+		padding-right: 10px;
+		padding-left: 0px;
+	}
+
+	.pagination > li{
+		float: right;
+		margin-right: 0px;
+		margin-left: 20px;
+	}
+
+	.actions_list > li:not(:last-child){
+		margin-right: 0px;
+		margin-left: 1px;
+	}
+
+	.comments-list .children{
+		padding-left: 0px;
+		padding-right: 30px;
+	}
+
+	.avatar,
+	.our_author_image{
+		float: right;
+		margin-right: 0;
+		margin-left: 17px;
+	}
+
+	.comment-meta{
+		padding-right: 0px;
+		padding-left: 100px;
+	}
+
+	.comment-reply-link{
+		right: auto;
+		left: 0px;
+	}
+
+/* ------------------------------------------------
+
+		1. Pages
+
+------------------------------------------------ */
+
+	.actions_404 > *:not(:last-child){
+		margin-right: 0px;
+		margin-left: 7px;
+	}
+
+	/* labels */
+
+	[class*="top_label"]{
+		padding-right: 12px;
+		padding-left: 10px;
+		left: auto;
+		right: 0;
+	}
+
+	[class*="top_label"]::before{
+		left: auto;
+		right: 100%;
+		border-width:0 19px 29px 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+
+	.top_label_blue::before{
+		border-right-color: #0097ad;
+	}
+
+	.top_label_yellow::before{
+		border-right-color: #ffba00;
+	}
+
+	.top_label_grey::before{
+		border-right-color: #888;
+	}
+
+/* ------------------------------------------------
+
+		10. Sidebar
+
+------------------------------------------------ */
+
+	#sidebar::before{
+		right: 15px;
+		left: -50000px;
+	}
+
+	#sidebar:first-child::before{
+		left: 15px;
+		right: -50000px;
+	}
+
+	/* --------------------------------------------
+			7.1 Widgets
+	-------------------------------------------- */
+
+		.widget{
+			padding: 0 20px 0 0;
+		}
+
+		#sidebar:first-child .widget{
+			padding: 0 0 0 20px;
+		}
+
+		/* --------------------------------------------
+			7.7.1 Popular Posts
+		-------------------------------------------- */
+
+			.entry_thumb{
+				float: right;
+				margin-right: 0;
+				margin-left: 15px;
+			}
+
+		/* --------------------------------------------
+			7.7.1 Flickr & Dribbble & Instagram Feeds
+		-------------------------------------------- */
+
+			.flickr_feed,
+			.dribbble_feed,
+			.instagram_feed{
+				margin-left: -1px;
+				margin-right: 0px;
+			}
+
+			.flickr_feed > li,
+			.dribbble_feed > li,
+			.instagram_feed > li{
+				float: right;
+				border-right-width: 0px;
+				border-left: 1px solid transparent;
+			}
+
+/* ------------------------------------------------
+
+		1. Portfolio
+
+------------------------------------------------ */
+
+	/* same stylesheets */
+
+	.item_type_1 .category,
+	.item_type_5 .category{
+		float: right;
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+
+	.item_type_1 .stats,
+	.item_type_5 .stats{
+		text-align: left;
+		float: left;
+		padding-left: 0px;
+		padding-right: 10px;
+	}
+
+	.inner_j_item .sl_wrap:first-child{
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+
+	.stat_link i[class|="icon"]::before{
+		margin-right: 0px;
+		margin-left: 5px;
+	}
+
+	.item_type_3 .stats{
+		right: auto;
+		left: 20px;
+	}
+
+	/* --------------------------------------------
+			7.7.1 Single item
+	-------------------------------------------- */
+
+		.share_post{
+			text-align: left;
+		}
+
+	/* --------------------------------------------
+			7.7.1 Related Portfolio Projects
+	-------------------------------------------- */
+
+		.related_projects.full_width .inner_j_item{
+			float: right;
+		}
+
+/* ------------------------------------------------
+
+		7. Shop
+
+------------------------------------------------ */
+
+	/* --------------------------------------------
+			7.1 Signle Product Page
+	-------------------------------------------- */
+
+		.product_thumb{
+			float: right;
+			margin-right: 0px;
+			margin-left: 10px;
+		}
+
+	/* --------------------------------------------
+			7.1 Header Shopping Cart
+	-------------------------------------------- */
+
+		.products_list .close{
+			right: auto;
+			left: 0px;
+		}
+
+/* ------------------------------------------------
+
+		10. Animations
+
+------------------------------------------------ */
+
+	.animation_box{
+		right: auto;
+		left: -15px;
+	}
+
+/* ------------------------------------------------
+
+		10. Footer
+
+------------------------------------------------ */
+
+	.copyright{
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+
+/* ------------------------------------------------
+
+		15. Media Queries
+
+------------------------------------------------ */
+
+	/* Bootstrap rtl changes */
+
+	@media (min-width: 1200px){
+		.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+			float: right;
+		}
+	}
+	@media (min-width: 992px){
+		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+			float: right;
+		}
+	}
+	@media (min-width: 768px){
+		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+			float: right;
+		}
+	}
+
+	@media only screen and (max-width: 1200px){
+
+		html{
+			overflow-x: hidden;
+		}
+
+		/* selectors, which can be removed in the final product (Start) */
+
+		.buttons_example_row > a:nth-child(6n){
+			clear: right;
+		}
+
+		/* selectors, which can be removed in the final product (End) */
+
+		.hm_wrap{
+			margin: 10px 0 0;
+			padding-left: 0px;
+		}
+
+		.hm_wrap .navigation{
+			text-align: right;	
+		}
+
+		.hm_wrap .navigation > li:nth-last-child(1) > .submenu,
+		.hm_wrap .navigation > li:nth-last-child(2) > .submenu,
+		.hm_wrap .navigation > li:nth-last-child(3) > .submenu{
+			right: auto;
+			left: 0;
+		}
+
+		.hm_wrap .navigation > li:nth-last-child(1) .submenu .submenu,
+		.hm_wrap .navigation > li:nth-last-child(2) .submenu .submenu,
+		.hm_wrap .navigation > li:nth-last-child(3) .submenu .submenu{
+			right: auto;
+			left: 100%;
+			margin: 0 0 0 20px;
+		}
+
+	}
+
+	@media only screen and (max-width: 991px){
+
+		.hm_wrap .navigation > li:not(:last-child){
+			margin-left: 20px;
+		}
+
+	}
+
+	@media only screen and (max-width: 767px){
+		
+		.copyright{
+			margin-left: 0px;
+		}
+
+		table td[data-title]{
+			position: relative;	
+			padding-right: 55%;
+			padding-left: 0%;
+		}
+
+		table td[data-title]::before{
+			left: auto;
+			right: 0;
+		}
+
+		.counters > .counter{
+			border-left-width: 0px !important;
+		}
+
+		.share_post,
+		.inner_j_item,
+		.on_the_sides > .right_side:last-child{
+			text-align: right;
+		}
+
+		.comment-meta{
+			padding-left: 20px;
+		}
+
+		.choose_rating > li{
+			float: none;
+		}
+
+		.addthis_sharing_toolbox{
+			right: auto;
+			left: 50%;
+
+			-webkit-transform: translateX(-50%) !important;
+				-ms-transform: translateX(-50%) !important;
+					transform: translateX(-50%) !important;
+		}
+
+		.addthis_sharing_toolbox.large_icons{
+			padding-left: 10px;
+		}
+
+		.hm_wrap .navigation > li{
+			float: none;
+		}
+
+		.hm_wrap .submenu{
+			right: auto !important;	
+		}
+
+		#header.hm .nav_searchform{
+			left: auto;
+		}
+
+		#toggle_menu{
+			right: auto;
+			left: 30px;
+		}
+
+		#top_actions_wrap{
+			text-align: left;
+		}
+
+		#top_actions_wrap > *{
+			text-align: right;
+		}
+
+		.menu_opened .vm #toggle_menu{
+			right: auto;
+			left: -120px;
+		}
+
+		.menu_opened .vm .nav_searchform{
+			right: auto;
+			left: -70px;
+		}
+
+	}

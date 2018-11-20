@@ -1,0 +1,212 @@
+{
+	"items" : [
+		{
+			"imageSrc" : "images/portfolio_masonry_img_1.jpg",
+			"lightBoxImage": "images/12.jpg",
+			"layoutType" : 6,
+			"category" : "travelling",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 18,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 24,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_2.jpg",
+			"lightBoxImage": "images/24.jpg",
+			"layoutType" : 6,
+			"category" : "people",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 51,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 145,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_3.jpg",
+			"lightBoxImage": "images/21.jpg",
+			"layoutType" : 7,
+			"category" : "macro",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 81,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 117,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_4.jpg",
+			"lightBoxImage": "images/17.jpg",
+			"layoutType" : 7,
+			"category" : "people",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 97,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 14,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_5.jpg",
+			"lightBoxImage": "images/01.jpg",
+			"layoutType" : 7,
+			"category" : "travelling",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 98,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 248,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_8.jpg",
+			"lightBoxImage": "images/04.jpg",
+			"layoutType" : 6,
+			"category" : "travelling",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 77,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 547,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_6.jpg",
+			"lightBoxImage": "images/26.jpg",
+			"layoutType" : 8,
+			"category" : "people",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 47,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 297,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_7.jpg",
+			"layoutType" : 8,
+			"category" : "people",
+			"galleryName" : "gallery_wall",
+			"iconType" : "video",
+			"videoLink" : "https://www.youtube.com/watch?v=RIQqVqQs9Xs",
+			"statLink1" : {
+				"amount" : 82,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 147,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_10.jpg",
+			"lightBoxImage": "images/14.jpg",
+			"layoutType" : 8,
+			"category" : "travelling",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 84,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 142,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_11.jpg",
+			"lightBoxImage": "images/05.jpg",
+			"layoutType" : 9,
+			"category" : "macro",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 82,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 17,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_13.jpg",
+			"layoutType" : 10,
+			"category" : "macro",
+			"galleryName" : "gallery_wall",
+			"iconType" : "video",
+			"videoLink" : "https://www.youtube.com/watch?v=RIQqVqQs9Xs",
+			"statLink1" : {
+				"amount" : 84,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 28,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_9.jpg",
+			"lightBoxImage": "images/15.jpg",
+			"layoutType" : 9,
+			"category" : "travelling",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 24,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 17,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"imageSrc" : "images/portfolio_masonry_img_12.jpg",
+			"lightBoxImage": "images/08.jpg",
+			"layoutType" : 10,
+			"category" : "travelling",
+			"galleryName" : "gallery_wall",
+			"iconType" : "photo",
+			"statLink1" : {
+				"amount" : 15,
+				"icon": "eye"
+			},
+			"statLink2" : {
+				"amount" : 97,
+				"icon": "heart-empty"
+			}
+		}
+	]
+}

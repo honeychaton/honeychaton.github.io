@@ -1,0 +1,244 @@
+{
+	"items" : [
+		{
+			"images" : [
+				"images/gallery_album_1_img_1.jpg",
+				"images/gallery_album_1_img_2.jpg",
+				"images/gallery_album_1_img_3.jpg"
+			],
+			"postTitle" : "Mountains",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 1,
+			"category" : "travelling",
+			"statLink1" : {
+				"amount" : 5,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 100,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_2_img_1.jpg",
+				"images/gallery_album_2_img_2.jpg",
+				"images/gallery_album_2_img_3.jpg"
+			],
+			"postTitle" : "Tenderness",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 2,
+			"category" : "people",
+			"statLink1" : {
+				"amount" : 21,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 45,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_3_img_1.jpg",
+				"images/gallery_album_3_img_2.jpg",
+				"images/gallery_album_3_img_3.jpg"
+			],
+			"postTitle" : "Exotic Places",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 3,
+			"category" : "travelling",
+			"statLink1" : {
+				"amount" : 32,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 76,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_4_img_1.jpg",
+				"images/gallery_album_4_img_2.jpg",
+				"images/gallery_album_4_img_3.jpg"
+			],
+			"postTitle" : "Life Style",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "people",
+			"statLink1" : {
+				"amount" : 9,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 12,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_5_img_1.jpg",
+				"images/gallery_album_5_img_2.jpg",
+				"images/gallery_album_5_img_3.jpg"
+			],
+			"postTitle" : "Forests",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "travelling",
+			"statLink1" : {
+				"amount" : 23,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 54,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_6_img_1.jpg",
+				"images/gallery_album_6_img_2.jpg",
+				"images/gallery_album_6_img_3.jpg"
+			],
+			"postTitle" : "Freshness",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "macro",
+			"statLink1" : {
+				"amount" : 6,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 15,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_7_img_1.jpg",
+				"images/gallery_album_7_img_2.jpg",
+				"images/gallery_album_7_img_3.jpg"
+			],
+			"postTitle" : "Portraits",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "people",
+			"statLink1" : {
+				"amount" : 19,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 77,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_8_img_1.jpg",
+				"images/gallery_album_8_img_2.jpg",
+				"images/gallery_album_8_img_3.jpg"
+			],
+			"postTitle" : "Street Fashion",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "people",
+			"statLink1" : {
+				"amount" : 11,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 29,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_9_img_1.jpg",
+				"images/gallery_album_9_img_2.jpg",
+				"images/gallery_album_9_img_3.jpg"
+			],
+			"postTitle" : "Nymphs",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "people",
+			"statLink1" : {
+				"amount" : 12,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 27,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_10_img_1.jpg",
+				"images/gallery_album_10_img_2.jpg",
+				"images/gallery_album_10_img_3.jpg"
+			],
+			"postTitle" : "Flowers",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "macro",
+			"statLink1" : {
+				"amount" : 13,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 36,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_11_img_1.jpg",
+				"images/gallery_album_11_img_2.jpg",
+				"images/gallery_album_11_img_3.jpg"
+			],
+			"postTitle" : "Black & White",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "people",
+			"statLink1" : {
+				"amount" : 22,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 99,
+				"icon": "heart-empty"
+			}
+		},
+		{
+			"images" : [
+				"images/gallery_album_12_img_1.jpg",
+				"images/gallery_album_12_img_2.jpg",
+				"images/gallery_album_12_img_3.jpg"
+			],
+			"postTitle" : "Sunsets",
+			"postLink" : "galleries_single_album.html",
+			"categoryLink" : "#",
+			"layoutType" : 5,
+			"category" : "travelling",
+			"statLink1" : {
+				"amount" : 13,
+				"icon": "picture"
+			},
+			"statLink2" : {
+				"amount" : 97,
+				"icon": "heart-empty"
+			}
+		}
+	]
+}

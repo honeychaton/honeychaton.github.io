@@ -1,0 +1,70 @@
+{
+	"items" : [
+		{
+			"title" : "Post With Audio",
+			"postLink" : "full_width_single_blog_post.html",
+			"postType" : "audio",
+			"soundcloudSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142827697&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true",
+			"category" : "Music",
+			"created" : "June 26, 2015",
+			"author" : "admin",
+			"comments" : 12,
+			"extra" : "Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in <a href='#'>faucibus orci</a> luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue."
+		},
+		{
+			"title" : "Post With Featured Image",
+			"postLink" : "full_width_single_blog_post.html",
+			"postType" : "featured_image",
+			"featuredImage": "images/blog_img_1.jpg",
+			"category" : "Macro",
+			"created" : "June 26, 2015",
+			"author" : "admin",
+			"comments" : 1,
+			"extra" : "Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget non erat."
+		},
+		{
+			"title" : "Post With Blockquote",
+			"postLink" : "full_width_single_blog_post.html",
+			"postType" : "blockquote",
+			"quote": "Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mau- ris fermentum dictum magna.",
+			"quoteAuthor": "John Doe, famous writer",
+			"category" : "Travelling",
+			"created" : "June 26, 2015",
+			"author" : "admin",
+			"comments" : 64,
+			"extra" : "Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget non erat."
+		},
+		{
+			"title" : "Post With Youtube Video",
+			"postLink" : "full_width_single_blog_post.html",
+			"postType" : "video",
+			"videoSrc": "https://www.youtube.com/embed/RIQqVqQs9Xs?controls=1&amp;autohide=0&amp;wmode=transparent",
+			"category" : "Nature",
+			"created" : "June 26, 2015",
+			"author" : "admin",
+			"comments" : 7,
+			"extra" : "Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Vestibulum nisl, porta vel."
+		},
+		{
+			"title" : "Post With Audio 2",
+			"postLink" : "full_width_single_blog_post.html",
+			"postType" : "hosted_audio",
+			"audioSrc": "audio/audio.mp3",
+			"category" : "Music",
+			"created" : "June 26, 2015",
+			"author" : "admin",
+			"comments" : 2,
+			"extra" : "Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in <a href='#'>faucibus orci</a> luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue."
+		},
+		{
+			"title" : "Simple Text Post",
+			"postLink" : "full_width_single_blog_post.html",
+			"postType" : "simple_text",
+			"category" : "Others",
+			"created" : "June 26, 2015",
+			"author" : "admin",
+			"comments" : 10,
+			"extra" : "Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget non erat."
+		}
+	]
+}
